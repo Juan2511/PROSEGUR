@@ -76,6 +76,13 @@
     <Analyzer Include="..\packages\Microsoft.NetFramework.Analyzers.2.9.6\analyzers\dotnet\cs\Microsoft.NetFramework.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.NetFramework.Analyzers.2.9.6\analyzers\dotnet\cs\Microsoft.NetFramework.CSharp.Analyzers.dll" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="ScriptBD\DB.sql" />
+    <Content Include="ScriptBD\Sp_Agregar_DetalleEvaluacionServicio.sql" />
+    <Content Include="ScriptBD\Sp_Agregar_EvaluacionServicio.sql" />
+    <Content Include="ScriptBD\Sp_Listar_DetalleEvaluacionServicio.sql" />
+    <Content Include="ScriptBD\Sp_Obtener_DetalleEvaluacionServicio.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

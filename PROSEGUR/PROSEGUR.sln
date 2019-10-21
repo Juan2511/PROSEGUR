@@ -13,15 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PROSEGUR.UI", "PROSEGUR.UI\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PROSEGUR.Test", "PROSEGUR.Test\PROSEGUR.Test.csproj", "{A975DA0E-398F-4FB7-999F-9738059F32BE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BD", "BD", "{F9CD6760-8F9E-4B2C-8699-66FE482B20A8}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\..\..\PruebaCorreo\PROSEGUR\DB.sql = ..\..\..\..\..\..\PruebaCorreo\PROSEGUR\DB.sql
-		..\..\..\..\..\..\PruebaCorreo\PROSEGUR\Sp_Agregar_DetalleEvaluacionServicio.sql = ..\..\..\..\..\..\PruebaCorreo\PROSEGUR\Sp_Agregar_DetalleEvaluacionServicio.sql
-		..\..\..\..\..\..\PruebaCorreo\PROSEGUR\Sp_Agregar_EvaluacionServicio.sql = ..\..\..\..\..\..\PruebaCorreo\PROSEGUR\Sp_Agregar_EvaluacionServicio.sql
-		..\..\..\..\..\..\PruebaCorreo\PROSEGUR\Sp_Listar_DetalleEvaluacionServicio.sql = ..\..\..\..\..\..\PruebaCorreo\PROSEGUR\Sp_Listar_DetalleEvaluacionServicio.sql
-		..\..\..\..\..\..\PruebaCorreo\PROSEGUR\Sp_Obtener_DetalleEvaluacionServicio.sql = ..\..\..\..\..\..\PruebaCorreo\PROSEGUR\Sp_Obtener_DetalleEvaluacionServicio.sql
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
