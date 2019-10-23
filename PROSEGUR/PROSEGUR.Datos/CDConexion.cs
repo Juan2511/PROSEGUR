@@ -12,7 +12,7 @@ namespace PROSEGUR.Datos
     {
         public MySqlConnection Conectar()
         {
-            string strConn = "server=127.0.0.1;uid=root;pwd=Clave;database=PROSEGUR";
+            string strConn = "Server=prosegurservicio.mysql.database.azure.com; Port=3306; Database=prosegur; Uid=usu1234@prosegurservicio; Pwd=Usuario1234@; SslMode=Preferred;";
             try
             {
                 MySqlConnection cnn = new MySqlConnection(strConn);
@@ -27,7 +27,7 @@ namespace PROSEGUR.Datos
 
         public bool DesConectar()
         {
-            string strConn = "server=127.0.0.1;uid=root;pwd=Clave;database=PROSEGUR";
+            string strConn = "Server=prosegurservicio.mysql.database.azure.com; Port=3306; Database=prosegur; Uid=usu1234@prosegurservicio; Pwd=Usuario1234@; SslMode=Preferred;";
             try
             {
                 MySqlConnection cnn = new MySqlConnection(strConn);
